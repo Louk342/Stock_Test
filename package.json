@@ -1,0 +1,23 @@
+{
+  "name": "autostock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "scripts": {
+    "test": "ts-node server.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "mariadb": "^3.2.3",
+    "node-schedule": "^2.1.1",
+    "ts-node": "^10.9.2",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "@types/node-schedule": "^2.1.6",
+    "@types/ws": "^8.5.10"
+  }
+}
